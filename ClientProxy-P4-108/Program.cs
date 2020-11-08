@@ -14,7 +14,7 @@ namespace ClientProxy_P4_108
             try
             {
                 ServiceReference1.MatematikaClient obj = new
-            ServiceReference1.MatematikaClient();
+                ServiceReference1.MatematikaClient();
                 double hasilTambah = obj.Tambah(1, 2);
                 Console.WriteLine("1 + 2 = " + hasilTambah);
                 double hasilKurang = obj.Kurang(3, 2);
@@ -44,7 +44,8 @@ namespace ClientProxy_P4_108
                 Console.WriteLine(mf.Detail.Pesan);
             }
             
-            Console.ReadLine();
+            Console.ReadLine();
+
         }
     }
 }
